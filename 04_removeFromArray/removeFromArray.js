@@ -1,5 +1,3 @@
-const arr1 = [];
-
 const removeFromArray = function (arr1, ...manyMoreArgs) {
   outer: for (let i = 0; i < manyMoreArgs.length; i++) {
     for (let j = 0; j < arr1.length; j++) {
